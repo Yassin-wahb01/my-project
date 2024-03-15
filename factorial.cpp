@@ -4,11 +4,11 @@ using namespace std;
 
 int fac(int n) {
 
-	int res = 1;
+	int fac = 1;
 	for (int i = 0; i <= n; i++)
-		res *= i;
+		fac *= i;
 
-	return res;
+	return fac;
 }
 
 int main() {
